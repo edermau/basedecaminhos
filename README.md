@@ -4,7 +4,7 @@ Script para gerar uma Base de Caminhos utilizando CDR
 # Processamento e Anonimização de Dados de Conexão
 
 Este projeto visa processar dados de conexão de uma planilha Excel, calcular a duração da conexão entre diferentes sites e anonimizar os números de telefone (`msisdn`) usando a função de hash SHA-256.
-
+ 
 ## Requisitos
 
 - Python 3.x
