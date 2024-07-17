@@ -1,9 +1,14 @@
 # Base de caminhos
-Script para gerar uma Base de Caminhos utilizando CDR 
+Script para gerar uma Base de Caminhos utilizando CDR
+
+# Arquitetura de Referencia para a Base de Caminhos
+
+<img src='sandbox.png' width=240 />
+
 
 # Processamento e Anonimização de Dados de Conexão
 
-Este projeto visa processar dados de conexão de uma planilha Excel, calcular a duração da conexão entre diferentes sites e anonimizar os números de telefone (`msisdn`) usando a função de hash SHA-256.
+Este projeto visa processar dados de conexão de uma planilha Excel que possui os dados de (CDR), calcular a duração da conexão entre diferentes ERBs e anonimizar os números de telefone (`msisdn`) usando a função de hash SHA-256.
  
 ## Requisitos
 
