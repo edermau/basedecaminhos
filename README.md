@@ -127,5 +127,16 @@ Salva o DataFrame resultante em um novo arquivo Excel especificado por output_fi
 # Contribuição
 Sinta-se à vontade para contribuir com este projeto através de pull requests. Qualquer sugestão ou melhoria é bem-vinda!
 
+# Público-Alvo
+Esse Script Pythonfoi projetado para vários usuários, incluindo:
+Desenvolvedores de software
+Administradores de sistema
+Gerentes de TI
+Arquitetos de TI
+Engenheiros de Telecomunicações
 
+# Licença
+Este projeto está licenciado sob os termos da licença do MIT.
+
+ 
 Este arquivo `README.md` fornece uma visão geral completa do código, incluindo requisitos, instruções de instalação, uso e uma explicação detalhada do que o código faz. Salve o conteúdo acima em um arquivo chamado `README.md` no mesmo diretório do seu script Python.
