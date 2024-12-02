@@ -43,7 +43,7 @@ def process_data(file_path, output_file_path):
     print(f"Resultado salvo em: {output_file_path}")
 
 # Caminho do arquivo de entrada
-input_file_path = '/tmp/amostras2024Mesv3.xlsx'
+input_file_path = '/tmp/base.xlsx'
 
 # Caminho do arquivo de saída
 output_file_path = '/tmp/base_de_caminhos9.xlsx'
