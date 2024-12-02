@@ -7,8 +7,8 @@ def anonymize_msisdn(msisdn):
 
 # Função para carregar os dados e processar conforme solicitado
 def process_data(file_path, output_file_path):
-    # Carregar os dados da planilha 'amostra202406'
-    data = pd.read_excel(file_path, sheet_name='amostra202406')
+    # Carregar os dados da planilha 'Planilha1'  
+    data = pd.read_excel(file_path, sheet_name='Planilha1')
 
     # Anonimizar o campo msisdn
     data['msisdn'] = data['msisdn'].astype(str).apply(anonymize_msisdn)
@@ -23,8 +23,8 @@ def process_data(file_path, output_file_path):
     data['next_dt_start_time'] = data['dt_start_time'].shift(-1)
     data['time_diff'] = data['next_dt_start_time'] - data['dt_start_time']
 
-    # Filtrar para manter apenas resultados com diferença de tempo superior a 5 minutos
-    filtered_data = data[data['time_diff'] > pd.Timedelta(minutes=5)]
+    # Filtrar para manter apenas resultados com diferença de tempo superior a x minutos se aplicavel
+    filtered_data = data[data['time_diff'] > pd.Timedelta(minutes=-1)]
 
     # Criar base de caminhos com origem e destino
     filtered_data['next_ds_site'] = filtered_data['ds_site'].shift(-1)
@@ -43,10 +43,11 @@ def process_data(file_path, output_file_path):
     print(f"Resultado salvo em: {output_file_path}")
 
 # Caminho do arquivo de entrada
-input_file_path = '/tmp/base.xlsx'
+input_file_path = '/tmp/amostras2024Mesv3.xlsx'
 
 # Caminho do arquivo de saída
-output_file_path = '/Users/emau/Documents/base_de_caminhos7.xlsx'
+output_file_path = '/tmp/base_de_caminhos9.xlsx'
 
 # Processar os dados e salvar o resultado
 process_data(input_file_path, output_file_path)
+
