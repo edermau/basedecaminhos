@@ -12,7 +12,7 @@ Este projeto visa processar dados de conexão de uma planilha Excel que possui o
  
 ## Requisitos
 
-- Python 3.x
+- **Python 3.x ou superior**.
 - Pandas
 - Openpyxl
 
