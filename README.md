@@ -138,6 +138,5 @@ Engenheiros de Telecomunicações
 # Licença
 Este projeto está licenciado sob os termos da licença do MIT.
 
- 
-Este arquivo `README.md` fornece uma visão geral completa do código, incluindo requisitos, instruções de instalação, uso e uma explicação detalhada do que o código faz.
+
 
