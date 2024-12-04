@@ -139,4 +139,5 @@ Engenheiros de Telecomunicações
 Este projeto está licenciado sob os termos da licença do MIT.
 
  
-Este arquivo `README.md` fornece uma visão geral completa do código, incluindo requisitos, instruções de instalação, uso e uma explicação detalhada do que o código faz. Salve o conteúdo acima em um arquivo chamado `README.md` no mesmo diretório do seu script Python.
+Este arquivo `README.md` fornece uma visão geral completa do código, incluindo requisitos, instruções de instalação, uso e uma explicação detalhada do que o código faz.
+
